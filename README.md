@@ -3,4 +3,6 @@ Fill all the required details
 
 Give a required serach string and number of tweets!
 
-Thank U
+It will automate the likes and retweet of many tweets!!!
+
+Thank U!

@@ -32,7 +32,7 @@ def limit_handle(cursor):
 search_string = ''  # String which u would use to like or retweet a tweet
 no_of_tweets = 2  # You can modify the number as per ur requirement
 
-for tweet in tweepy.Cursor(api.search, search_string).items(no_of_tweets):
+for tweet in limit_handle(tweepy.Cursor(api.search, search_string).items(no_of_tweets)):
     try:
         tweet.favorite()
         tweet.retweet()
